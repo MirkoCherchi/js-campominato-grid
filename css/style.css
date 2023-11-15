@@ -62,3 +62,7 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+.click{
+    background-color: red;
+}

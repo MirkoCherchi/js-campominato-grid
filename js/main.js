@@ -20,8 +20,15 @@ for (let i = 1; i <= 100; i++) {
     bottone.addEventListener('click', function() {
     
     contenitoreGame.append(cell);
+    
 })
 const cell = createCell('div', 'cell', i )
+
+cell.addEventListener('click', function(){
+    cell.classList.add('click');
+    console.log(i);
+})
+
     
     
 }
