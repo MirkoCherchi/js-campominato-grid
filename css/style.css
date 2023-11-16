@@ -44,6 +44,7 @@ main{
     cursor: pointer;
     border: 1px solid black;
     font-size: 16px;
+    vertical-align: baseline;
 }
 
 .cont-game{
@@ -55,14 +56,48 @@ main{
 }
 
 .cell{
-    width: calc(100% / 10);
-    height: calc(100% / 10);
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+#difficult{
+    padding: 1px;
+    padding-right: 80px;
+    font-size: 16px;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+    vertical-align: my;
+}
+
+.tit-diff{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
 .click{
     background-color: lightblue;
+}
+
+.cell-10{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.cell-9 {
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+}
+
+.cell-7 {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+}
+
+.btn:hover{
+    scale: 1.05;
+    background-color: lawngreen;
+
 }
